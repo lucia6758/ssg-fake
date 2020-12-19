@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MJM4ZTK67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MJM4ZTK67S');
+</script>
+<!-- 구글 서치 추적코드 -->
+<meta name="google-site-verification" content="wUkBfkMNCD9ApivN3PJoZZvuzlZ5QekPeGAqah2SD8o" />
+
+<!-- 구글 애드센스 -->
+<script data-ad-client="ca-pub-8759106548274763" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta charset="UTF-8" />
+<title>Developers</title>
+<!-- 폰트어썸 불러오기 -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" href="app.css" />
+</head>
+<body>
+	<div class="body-content flex flex-column min-height-100vh">
+		<!-- 로고바 시작 -->
+		<header class="logo-bar con-min-width">
+			<div class="con height-100p flex flex-jc-c">
+				<a href="./" class="logo flex flex-ai-c"> <i
+					class="far fa-lightbulb"></i> <span>Developers</span>
+				</a>
+			</div>
+		</header>
+		<!-- 로고바 끝 -->
+
+		<!-- 메뉴바 시작 -->
+		<header class="menu-bar con-min-width">
+			<div class="con height-100p">
+				<nav class="menu-bar__menu-1">
+					<ul class="flex">
+						<li><a href="../index.html" class="block"> <i class="fas fa-home"></i>
+								<span>HOME</span>
+						</a></li>
+						<li><a class="block"> <i class="fas fa-list"></i>
+								<span>ARTICLES</span>
+
+						</a>
+							<ul><li><a href="../article/list_notice_1.html" class="block"><i class="fas fa-exclamation-circle"></i> <span>NOTICE</span></a></li><li><a href="../article/list_free_1.html" class="block"><i class="far fa-comment-dots"></i> <span>FREE</span></a></li><li><a href="../article/list_study_1.html" class="block"><i class="fas fa-pencil-alt"></i> <span>STUDY</span></a></li>
+							</ul></li>
+						<li><a class="block"> <i class="fas fa-link"></i> <span>LINK</span>
+						</a>
+							<ul>
+								<li><a href="#" class="block"> <i
+										class="fab fa-blogger-b"></i> <span>BLOG</span>
+								</a></li>
+								<li><a href="#" class="block"> <i class="fab fa-github"></i>
+										<span>GITHUB</span>
+								</a></li>
+							</ul></li>
+						<li><a href="../stat/index.html" class="block"> <i
+								class="fas fa-chart-pie"></i> <span>STATISTICS</span>
+						</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- 메뉴바 끝 -->
+
+		<main class="flex-grow-1">
+			<section class="title-bar con-min-width">
+				<h1 class="con"><i class="fas fa-pencil-alt"></i> <span>STUDY</span></h1>
+			</section><!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
+
+<!-- 토스트 UI 에디터, 자바스크립트 코어 -->
+<script
+	src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+
+<!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css" />
+<!-- 토스트 UI 에디터, CSS 코어 -->
+<link rel="stylesheet"
+	href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+
+<!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
+<script
+	src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js"></script>
+<section class="article_detail con-min-width">
+	<div class="con">
+		<table class="detail_top width-inherit">
+			<tr><td class="td_title" colspan="7">[JAVA] 문자열 나누기 split</td></tr><tr><td class="td_id">번호: 2</td><td class="td_writer">작성자: 관리자</td><td class="td_regDate">등록일: 2020-12-18 01:25:42</td><td class="td_updateDate">수정일: 2020-12-18 01:25:42</td><td class="blank"></td><td class="td_hit">조회수: 0</td><td class="td_rec">추천수: 0</td></tr>
+		</table>
+		<table class="detail_body width-inherit">
+			<tr>
+				<td class="td_body"># split
+- split을 사용해 문자열을 나눌 수 있다
+```java
+public static void main(String[] args) {
+String 동물들 = "개,고양이,소,말,돼지";
+String[] 동물 = 동물들.split(",");
+for(int i = 0; i < 동물.length; i++){
+System.out.println(동물[i]);
+}
+}
+```
+- 결과
+```
+개
+고양이
+소
+말
+돼지
+```
+
+</td>
+			</tr>
+		</table>
+		<table class="detail_movePage width-inherit">
+			<tr><td class="page-back"><a href="article_1.html" class="hover_bottomLine">&lt 이전글</a></td><td class="page-list"><a href="list_study_1.html" class="hover_bottomLine">목록</a></td><td class="page-next"><td>
+			</tr>
+		</table>
+		<div class="detail_reply">
+			<div id="disqus_thread"></div>
+			<script>
+				(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://klvs-blog.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>
+				Please enable JavaScript to view the <a
+					href="https://disqus.com/?ref_noscript">comments powered by
+					Disqus.</a>
+			</noscript>
+		</div>
+	</div>
+</section>
+
+</main>
+
+<footer class="bottom-bar con-min-width">
+	<div class="con flex">
+		<a href="./" class="logo logo-mini flex flex-ai-c"> <i
+			class="far fa-lightbulb"></i> <span>Developers</span>
+		</a>
+		<div class="bottom-bar__site-info flex flex-ai-c">copyright
+			blahblah</div>
+	</div>
+</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
